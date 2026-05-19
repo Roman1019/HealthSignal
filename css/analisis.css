@@ -4,7 +4,6 @@
 
 .analisis-general-div {
   display: flex;
-  /* align-items: center; */
   gap: 80px;
   flex-wrap: wrap;
 }

@@ -1,0 +1,67 @@
+.experts-section {
+  padding-top: 64px;
+  padding-bottom: 117px;
+}
+.experts-title {
+  font-family: "Switzer", sans-serif;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 120%;
+  text-align: center;
+  max-width: 560px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.experts-accent {
+  font-family: "Taviraj", serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 56px;
+  line-height: 110%;
+  text-align: center;
+}
+.experts-description {
+  font-weight: 400;
+  line-height: 120%;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 732px;
+  margin-bottom: 64px;
+}
+.experts-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+.experts-item {
+}
+.experts-item-img {
+  width: 175px;
+  height: 175px;
+  margin-bottom: 16px;
+}
+.experts-item-title {
+  font-family: "Switzer", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+}
+.experts-item-study {
+  font-family: "Switzer", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #525757;
+}
+.experts-list-logo {
+}
+.experts-item-logo {
+}
+
+.experts-item-logo-img {
+  mix-blend-mode: multiply;
+}
