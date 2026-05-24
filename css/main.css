@@ -53,21 +53,21 @@ mark {
   font-weight: inherit;
 }
 .container {
-  width: 100%;
+  /* width: 100%; */
   max-width: 1440px;
   padding: 0 64px;
   margin: 0 auto;
 }
 @media screen and (max-width: 1200px) {
   .container {
-    max-width: 768px;
-    padding: 0 32px;
+    /* max-width: 768px; */
+    /* padding: 0 32px; */
   }
 }
 
 @media screen and (max-width: 768px) {
   .container {
     max-width: 364px;
-    padding: 0 32px;
+    padding: 0 15px;
   }
 }

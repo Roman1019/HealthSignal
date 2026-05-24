@@ -26,15 +26,15 @@
     />
   </head>
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <div class="container">
         <a href="/"
           ><img class="header-logo" src="./img/Logo - White.png" alt=""
         /></a>
       </div>
-    </header>
+    </header> -->
     <main>
-      <section class="hero-section">
+      <!-- <section class="hero-section">
         <div class="container">
           <div class="hero-general-div">
             <div class="hero-description-div">
@@ -59,7 +59,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="detection-section">
         <div class="container">
           <h2 class="detection-title">
@@ -122,7 +122,14 @@
             Discover Your Risk <img src="./icon/button-arrow.svg" alt="27" />
           </button>
           <ul class="detection-list-img">
-            <img class="detection-img" src="./img/detection-img1.png" alt="" />
+            <li>
+              <img
+                class="detection-img"
+                src="./img/detection-img1.png"
+                alt=""
+              />
+            </li>
+
             <li>
               <img
                 class="detection-img"
@@ -180,6 +187,11 @@
             </p>
           </li>
         </ul>
+        <div class="quick-button-div">
+          <button class="hero-button quick-button">
+            Discover Your Risk <img src="./icon/button-arrow.svg" alt="" />
+          </button>
+        </div>
       </section>
       <section class="analisis-section">
         <div class="container">
@@ -276,9 +288,16 @@
             <p class="insights-name1">Darren R.</p>
             <p class="insights-name2">Beta Member</p>
             <div class="insights-ring">
-              <img src="./img/insights-ring.png" alt="" />
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="./img/insights-rings-mobile.png" />
+                <img
+                  class="insights-ring-img"
+                  src="./img/insights-ring.png"
+                  alt=""
+              /></picture>
             </div>
-            >
           </div>
         </div>
       </section>
@@ -296,60 +315,77 @@
           <ul class="experts-list">
             <li class="experts-item">
               <img class="experts-item-img" src="./img/experts1.png" alt="" />
-              <h3 class="experts-item-title">Jessica Lasky Su, PhD</h3>
-              <p class="experts-item-study">Harvard University</p>
+              <div class="experts-item-description">
+                <h3 class="experts-item-title">Jessica Lasky Su, PhD</h3>
+                <p class="experts-item-study">Harvard University</p>
+              </div>
             </li>
             <li class="experts-item">
               <img class="experts-item-img" src="./img/experts2.png" alt="" />
-              <h3 class="experts-item-title">Raghav Sehgal, PhD</h3>
-              <p class="experts-item-study">Yale University</p>
+              <div class="experts-item-description">
+                <h3 class="experts-item-title">Raghav Sehgal, PhD</h3>
+                <p class="experts-item-study">Yale University</p>
+              </div>
             </li>
             <li class="experts-item">
               <img class="experts-item-img" src="./img/experts3.png" alt="" />
-              <h3 class="experts-item-title">Michael Corley, PhD</h3>
-              <p class="experts-item-study">Cornell University</p>
+              <div class="experts-item-description">
+                <h3 class="experts-item-title">Michael Corley, PhD</h3>
+                <p class="experts-item-study">Cornell University</p>
+              </div>
             </li>
             <li class="experts-item">
               <img class="experts-item-img" src="./img/experts4.png" alt="" />
-              <h3 class="experts-item-title">Andrew Teschendorff, PhD</h3>
-              <p class="experts-item-study">University of Cambridge</p>
+              <div class="experts-item-description">
+                <h3 class="experts-item-title">Andrew Teschendorff, PhD</h3>
+                <p class="experts-item-study">University of Cambridge</p>
+              </div>
             </li>
             <li class="experts-item">
               <img class="experts-item-img" src="./img/experts5.png" alt="" />
-              <h3 class="experts-item-title">Wanding Zhou, PhD</h3>
-              <p class="experts-item-study">Van Andel Institute</p>
+              <div class="experts-item-description">
+                <h3 class="experts-item-title">Wanding Zhou, PhD</h3>
+                <p class="experts-item-study">Van Andel Institute</p>
+              </div>
             </li>
           </ul>
-          <ul class="experts-list-logo">
-            <li class="experts-item-logo">
-              <img
-                class="experts-item-logo-img"
-                src="./img/expert-logo1.png"
-                alt=""
-              />
-            </li>
-            <li class="experts-item-logo">
-              <img
-                class="experts-item-logo-img"
-                src="./img/expert-logo2.png"
-                alt=""
-              />
-            </li>
-            <li class="experts-item-logo">
-              <img
-                class="experts-item-logo-img"
-                src="./img/logos-vertical-1024x683 1.jpg"
-                alt=""
-              />
-            </li>
-            <li class="experts-item-logo">
-              <img
-                class="experts-item-logo-img"
-                src="./img/expert-logo4.png"
-                alt=""
-              />
-            </li>
-          </ul>
+          <div class="swiper experts-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  class="experts-item-logo-img"
+                  src="./img/expert-logo1.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  class="experts-item-logo-img"
+                  src="./img/expert-logo2.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  class="experts-item-logo-img"
+                  src="./img/expert-logo3.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  class="experts-item-logo-img"
+                  src="./img/expert-logo4.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="experts-pagination"></div>
+          </div>
         </div>
       </section>
     </main>
@@ -371,10 +407,16 @@
             <a href="#"><img src="./icon/footer-twitter.svg" alt="" /></a>
           </div>
         </div>
+        <div class="footer-button-div">
+          <button class="hero-button footer-button">
+            Discover Your Risk <img src="./icon/button-arrow.svg" alt="" />
+          </button>
+        </div>
 
-        <button class="hero-button footer-button">
-          Discover Your Risk <img src="./icon/button-arrow.svg" alt="" />
-        </button>
+        <div class="footer-icon-div2">
+          <a href="#"><img src="./icon/footer-instagram.svg" alt="" /></a>
+          <a href="#"><img src="./icon/footer-twitter.svg" alt="" /></a>
+        </div>
         <div class="footer-line"></div>
         <div class="footer-end">
           <ul class="footer-end-list1">

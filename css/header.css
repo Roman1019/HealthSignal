@@ -1,8 +1,24 @@
+/* .header {
+  position: absolute;
+  top: 0;
+  padding: 30px 0;
+  width: 100%;
+  z-index: 10;
+} */
 .header {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 30px 0;
   width: 100%;
-  z-index: 10;
+  padding: 30px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 20px 0;
+  }
+  .header .container {
+    display: flex;
+    justify-content: center;
+  }
 }

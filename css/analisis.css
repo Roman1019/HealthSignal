@@ -7,7 +7,11 @@
   gap: 80px;
   flex-wrap: wrap;
 }
-
+@media screen and (max-width: 1200px) {
+  .analisis-general-div {
+    flex-direction: column-reverse;
+  }
+}
 .analisis-img-div {
   display: flex;
   align-items: center;
@@ -15,7 +19,11 @@
   flex-grow: 1;
   padding: 0 46px;
 }
-
+@media screen and (max-width: 1200px) {
+  .analisis-img-div {
+    justify-content: center;
+  }
+}
 .analisis-img {
   width: 298px;
   max-height: 600px;
@@ -35,6 +43,23 @@
   margin-bottom: 24px;
 }
 
+@media screen and (max-width: 1200px) {
+  .analisis-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .analisis-title {
+    text-align: center;
+    max-width: 250px;
+    font-size: 48px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .analisis-accent {
   font-family: "Taviraj", serif;
   font-weight: 200;
@@ -43,6 +68,11 @@
   line-height: 1.1;
   letter-spacing: 0;
   text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .analisis-accent {
+    font-size: 48px;
+  }
 }
 
 .analisis-price {
@@ -55,13 +85,29 @@
   margin-bottom: 16px;
   color: #525757;
 }
-
+@media screen and (max-width: 1200px) {
+  .analisis-price {
+    text-align: center;
+  }
+}
 .analisis-button {
   padding: 12px 20px;
   margin-bottom: 16px;
 }
+@media screen and (max-width: 1200px) {
+  .analisis-button {
+    margin: 0 auto;
+    padding: 12px 24px;
+    margin-bottom: 16px;
+  }
+}
 
 .analisis-list {
+}
+@media screen and (max-width: 1200px) {
+  .analisis-item {
+    margin: 0 auto;
+  }
 }
 
 .analisis-item {
@@ -72,6 +118,7 @@
   max-width: 553px;
   border-bottom: 1px solid #aaaaaa;
 }
+
 .analisis-item:last-child {
   border-bottom: none;
 }
@@ -87,6 +134,11 @@
   line-height: 1.5;
   letter-spacing: 0;
 }
+@media screen and (max-width: 768px) {
+  .analisis-item-title {
+    max-width: 297px;
+  }
+}
 
 .analisis-item-description {
   font-family: sans-serif;
@@ -96,4 +148,9 @@
   letter-spacing: 0;
   color: #525757;
   max-width: 490px;
+}
+@media screen and (max-width: 768px) {
+  .analisis-item-description {
+    max-width: 297px;
+  }
 }

@@ -4,6 +4,14 @@
   border-top-right-radius: 80px;
   padding: 64px 0;
 }
+@media screen and (max-width: 768px) {
+  .quick-test-section {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+}
 
 .quick-test-title {
   font-family: "Switzer", sans-serif;
@@ -15,6 +23,14 @@
   color: #fef9ef;
   margin-bottom: 40px;
 }
+@media screen and (max-width: 768px) {
+  .quick-test-title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 24px;
+  }
+}
 
 .quick-test-list {
   display: flex;
@@ -23,7 +39,11 @@
   gap: 64px;
   flex-wrap: wrap;
 }
-
+@media screen and (max-width: 768px) {
+  .quick-test-list {
+    gap: 40px;
+  }
+}
 .quick-test-item {
   max-width: 308px;
 }
@@ -53,4 +73,16 @@
   line-height: 150%;
   letter-spacing: -0.01em;
   color: #d0c7c1;
+}
+
+.quick-button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+@media screen and (min-width: 768px) {
+  .quick-button-div {
+    display: none;
+  }
 }
