@@ -58,6 +58,11 @@ mark {
   padding: 0 64px;
   margin: 0 auto;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 @media screen and (max-width: 1200px) {
   .container {
     /* max-width: 768px; */

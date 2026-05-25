@@ -112,11 +112,20 @@
   justify-content: center;
   align-items: center;
   gap: 34px;
+  stroke: #ffffff;
 }
+.footer-icon-div2:hover {
+  fill: blue;
+}
+
 @media screen and (min-width: 768px) {
   .footer-icon-div2 {
     display: none;
   }
+}
+
+.footer-icon2 {
+  fill: #ffffff;
 }
 .footer-line {
   width: 100%;

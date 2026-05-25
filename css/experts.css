@@ -16,7 +16,7 @@
 @media screen and (max-width: 768px) {
   .experts-title {
     font-size: 40px;
-    max-width: 345px;
+    max-width: 355px;
     margin-left: 0;
     margin-right: 0;
     text-align: left;
@@ -141,16 +141,21 @@
   margin: 0 auto;
   overflow: hidden;
 }
+@media screen and (max-width: 768px) {
+  .experts-swiper {
+    max-width: 500px;
+  }
+}
 
 .swiper-slide {
-  height: 80px; /* або 100px як в макеті */
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .experts-item-logo-img {
-  max-height: 117px; /* ключове */
+  max-height: 117px;
   width: auto;
   object-fit: contain;
   display: block;
