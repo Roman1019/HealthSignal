@@ -28,7 +28,7 @@
 }
 
 .detection-mark {
-  font-family: "Taviraj", serif;
+  font-family: "Taviraj", sans-serif;
   font-weight: 300;
   font-style: italic;
   font-size: 56px;
@@ -84,7 +84,7 @@
   gap: 9px;
   padding: 11px 22px;
   background-color: #fef9ef;
-  font-family: "Taviraj", serif;
+  font-family: "Taviraj", sans-serif;
   font-weight: 300;
   font-size: 24px;
   line-height: 120%;
@@ -121,9 +121,6 @@
   .detection-list-img {
     gap: 24px;
   }
-}
-
-.detection-item-img {
 }
 
 .detection-img {

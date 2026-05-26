@@ -61,7 +61,7 @@
 }
 
 .analisis-accent {
-  font-family: "Taviraj", serif;
+  font-family: "Taviraj", sans-serif;
   font-weight: 200;
   font-style: italic;
   font-size: 56px;
@@ -76,7 +76,7 @@
 }
 
 .analisis-price {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -102,8 +102,6 @@
   }
 }
 
-.analisis-list {
-}
 @media screen and (max-width: 1200px) {
   .analisis-item {
     margin: 0 auto;
